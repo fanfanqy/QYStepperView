@@ -1,0 +1,6 @@
+framework module QYStepperView {
+  umbrella header "QYStepperView-umbrella.h"
+
+  export *
+  module * { export * }
+}

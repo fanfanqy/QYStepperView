@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - QYStepperView (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - QYStepperView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  QYStepperView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  QYStepperView: f0b32cd2f5e4f6b7c5e8aaf59617d3f0fe497748
+
+PODFILE CHECKSUM: 0d6811d9c8d1ae5ae5a4fbe9725299964e857779
+
+COCOAPODS: 1.11.3

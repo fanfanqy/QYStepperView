@@ -1,0 +1,27 @@
+{
+  "name": "QYStepperView",
+  "version": "0.1.0",
+  "summary": "A short description of QYStepperView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fanfanqy/QYStepperView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fanfanqy": "17755357647@163.com"
+  },
+  "source": {
+    "git": "https://github.com/fanfanqy/QYStepperView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "QYStepperView/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}
