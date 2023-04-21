@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		2B9E2D357D6853FE2DCEA6E7 /* Pods-QYStepperView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYStepperView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QYStepperView_Tests/Pods-QYStepperView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C6D3342283A0F3A5F74E212 /* Pods_QYStepperView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYStepperView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B77398F04C29C97B11F766E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4B77398F04C29C97B11F766E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QYStepperView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYStepperView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,8 +62,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77764265A13CD1583D01C39E /* Pods-QYStepperView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYStepperView_Tests.release.xcconfig"; path = "Target Support Files/Pods-QYStepperView_Tests/Pods-QYStepperView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A627A25CA3E95CF217177C5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B8D0E4856855D2FDC962C0C0 /* QYStepperView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QYStepperView.podspec; path = ../QYStepperView.podspec; sourceTree = "<group>"; };
+		A627A25CA3E95CF217177C5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B8D0E4856855D2FDC962C0C0 /* QYStepperView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QYStepperView.podspec; path = ../QYStepperView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA14BA53F63E3F273B76EA62 /* Pods-QYStepperView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYStepperView_Example.debug.xcconfig"; path = "Target Support Files/Pods-QYStepperView_Example/Pods-QYStepperView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CD333EBE48C3EB66A960F50B /* Pods-QYStepperView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYStepperView_Example.release.xcconfig"; path = "Target Support Files/Pods-QYStepperView_Example/Pods-QYStepperView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D17637789A092A6F2DCD3AFA /* Pods_QYStepperView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYStepperView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				2B9E2D357D6853FE2DCEA6E7 /* Pods-QYStepperView_Tests.debug.xcconfig */,
 				77764265A13CD1583D01C39E /* Pods-QYStepperView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

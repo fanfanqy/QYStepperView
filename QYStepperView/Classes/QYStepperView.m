@@ -149,7 +149,7 @@ alpha:1.0]
     }];
     
     [self.increaseButton mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.right.equalTo(self);
+        make.trailing.equalTo(self);
         make.width.equalTo(@25);
         make.centerY.equalTo(self).offset(-2);
         make.top.equalTo(self).offset(-2);
