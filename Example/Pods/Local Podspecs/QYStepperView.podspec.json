@@ -1,6 +1,6 @@
 {
   "name": "QYStepperView",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of QYStepperView.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/fanfanqy/QYStepperView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/fanfanqy/QYStepperView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"
